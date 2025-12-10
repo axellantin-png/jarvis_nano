@@ -45,8 +45,6 @@ jarvis_nano/
 │   │   ├── jarvis_instruction_checker.py
 │   │   ├── text_normalizer_xml.py
 │   │   └── text_normalizer.py
-│   ├── docs
-│   │   └── architecture.md
 │   ├── model
 │   │   └── model.py
 │   ├── testing
