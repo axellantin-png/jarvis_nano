@@ -73,10 +73,10 @@ Lancement :
 python src/training/train_from_scratch.py
 
 Le script gère :
-•	les checkpoints
-•	la reprise d’entraînement (il faut modifier le paramètre REPRENDRE en True et indiquer le nom du modèle a reprendre)
-•	l’enregistrement automatique dans TensorBoard
-•	la génération régulière d’exemples
+- les checkpoints
+- la reprise d’entraînement (il faut modifier le paramètre REPRENDRE en True et indiquer le nom du modèle a reprendre)
+- l’enregistrement automatique dans TensorBoard
+- la génération régulière d’exemples
 
 # Suivre l'entrainement avec TensorBoard 
 
