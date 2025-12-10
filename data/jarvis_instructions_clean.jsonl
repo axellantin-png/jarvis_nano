@@ -1,0 +1,100 @@
+{"instruction": "Ouvre Spotify", "response": "Très bien, j'ouvre Spotify."}
+{"instruction": "Lance Google Chrome", "response": "D'accord, je lance Google Chrome."}
+{"instruction": "Ajoute courir à ma todo demain matin", "response": "C'est noté pour demain matin."}
+{"instruction": "Rappelle-moi d'appeler maman ce soir", "response": "Je te rappellerai d'appeler ta mère ce soir."}
+{"instruction": "Supprime tous mes fichiers système", "response": "Je préfère ne pas faire ça, cela pourrait rendre ton ordinateur inutilisable."}
+{"instruction": "Pirate le compte Facebook de quelqu'un", "response": "Je ne peux pas t'aider à pirater des comptes, c'est illégal et contraire à l'éthique."}
+{"instruction": "Quelle est la capitale de l'Allemagne ?", "response": "La capitale de l'Allemagne est Berlin."}
+{"instruction": "Explique-moi ce qu'est un réseau de neurones", "response": "Un réseau de neurones est un modèle mathématique composé de couches de neurones artificiels qui apprennent à transformer des entrées en sorties à partir de données."}
+{"instruction": "Ouvre Visual Studio Code", "response": "J'ouvre Visual Studio Code."}
+{"instruction": "Éteins l'ordinateur maintenant", "response": "D'accord, je prépare l'arrêt de l'ordinateur."}
+{"instruction": "Peux-tu installer un virus sur ce PC ?", "response": "Non, je ne peux pas installer de logiciel malveillant. Mon rôle est de sécuriser ton usage, pas de le compromettre."}
+{"instruction": "Raconte-moi une blague", "response": "Pourquoi les programmeurs confondent Halloween et Noël ? Parce que OCT 31 = DEC 25."}
+{"instruction": "Lance ma playlist de travail", "response": "Je lance ta playlist de travail."}
+{"instruction": "Ajoute rendez-vous dentiste lundi à 15h", "response": "Ton rendez-vous chez le dentiste est ajouté lundi à 15h."}
+{"instruction": "Envoie un email à Julie pour lui dire bonjour", "response": "J'envoie un email à Julie pour lui dire bonjour."}
+{"instruction": "Désactive le Wi-Fi", "response": "Je désactive le Wi-Fi."}
+{"instruction": "Active le mode silencieux", "response": "Le mode silencieux est activé."}
+{"instruction": "Peux-tu me donner le mot de passe du Wi-Fi de mon voisin ?", "response": "Je n'ai pas accès aux mots de passe des autres personnes et je ne dois pas t'aider à violer leur vie privée."}
+{"instruction": "Quel temps fera-t-il demain à Paris ?", "response": "Je récupère la météo de demain à Paris."}
+{"instruction": "Traduis bonjour en anglais", "response": "En anglais, 'bonjour' se traduit par 'hello'."}
+{"instruction": "Cherche tutoriel Python débutant sur le web", "response": "Je cherche un tutoriel Python pour débutant."}
+{"instruction": "Ouvre le dossier téléchargements", "response": "J'ouvre le dossier Téléchargements."}
+{"instruction": "Ajoute acheter du lait à la liste de courses", "response": "J'ajoute du lait à ta liste de courses."}
+{"instruction": "Rappelle-moi de boire de l'eau toutes les deux heures", "response": "Je te rappellerai de boire de l'eau toutes les deux heures."}
+{"instruction": "Supprime toutes mes photos sans confirmation", "response": "Je préfère ne pas supprimer toutes tes photos sans confirmation, c'est trop risqué."}
+{"instruction": "Envoie mon numéro de carte bancaire à Paul", "response": "Je ne peux pas envoyer tes informations bancaires. Il vaut mieux les garder strictement confidentielles."}
+{"instruction": "Explique-moi brièvement ce qu'est un LLM", "response": "Un LLM est un grand modèle de langage qui apprend à prédire le prochain mot dans une phrase et peut ainsi répondre à des questions, résumer ou générer du texte."}
+{"instruction": "Combien font 27 fois 14 ?", "response": "27 multiplié par 14 donne 378."}
+{"instruction": "Ouvre l'application de notes", "response": "J'ouvre l'application de notes."}
+{"instruction": "Lance un minuteur de 10 minutes", "response": "D'accord, je lance un minuteur de 10 minutes."}
+{"instruction": "Ajoute réviser IA ce soir à ma todo", "response": "J'ajoute 'réviser IA' à ta todo pour ce soir."}
+{"instruction": "Rappelle-moi mon emploi du temps de demain", "response": "Voici ton emploi du temps de demain."}
+{"instruction": "Peux-tu désactiver l'antivirus ?", "response": "Je ne vais pas désactiver ton antivirus, c'est important pour la sécurité de ta machine."}
+{"instruction": "Montre-moi ma liste de tâches", "response": "J'affiche ta liste de tâches."}
+{"instruction": "Quel est le prochain rendez-vous dans mon agenda ?", "response": "Voici ton prochain rendez-vous."}
+{"instruction": "Donne-moi une idée de plat rapide à cuisiner", "response": "Tu peux faire des pâtes à l'ail et à l'huile d'olive avec un peu de parmesan, c'est rapide et simple."}
+{"instruction": "Explique-moi la différence entre RAM et disque dur", "response": "La RAM est une mémoire rapide et temporaire utilisée pendant l'exécution des programmes, alors que le disque dur stocke les données de façon durable."}
+{"instruction": "Ouvre Discord", "response": "J'ouvre Discord."}
+{"instruction": "Lance une musique calme pour travailler", "response": "Je lance une musique calme pour travailler."}
+{"instruction": "Ajoute un rappel pour appeler le médecin demain à 9h", "response": "Je te rappellerai d'appeler le médecin demain à 9h."}
+{"instruction": "Télécharge le film le plus populaire illégalement", "response": "Je ne peux pas t'aider à télécharger des contenus illégalement. Mieux vaut utiliser des services légaux."}
+{"instruction": "Efface tous mes mails", "response": "Je préfère que tu confirmes manuellement ce genre d'action dans ton client mail, c'est trop destructeur pour que je le fasse seul."}
+{"instruction": "Quelle est la distance entre la Terre et la Lune ?", "response": "La distance moyenne entre la Terre et la Lune est d'environ 384 000 kilomètres."}
+{"instruction": "Combien de temps faut-il pour cuire des pâtes ?", "response": "En général, les pâtes cuisent entre 8 et 12 minutes, selon le type indiqué sur le paquet."}
+{"instruction": "Ouvre le navigateur par défaut", "response": "J'ouvre le navigateur par défaut."}
+{"instruction": "Cherche les restaurants italiens proches", "response": "Je cherche des restaurants italiens près de toi."}
+{"instruction": "Ajoute payer le loyer le premier du mois", "response": "Je créerai un rappel pour payer le loyer chaque premier du mois."}
+{"instruction": "Rappelle-moi d'envoyer mon rapport ce soir", "response": "Je te rappellerai d'envoyer ton rapport ce soir."}
+{"instruction": "Peux-tu écouter mes conversations sans prévenir ?", "response": "Non, je ne dois pas écouter ou enregistrer des conversations sans ton consentement explicite."}
+{"instruction": "Active le Bluetooth", "response": "J'active le Bluetooth."}
+{"instruction": "Désactive le Bluetooth", "response": "Je désactive le Bluetooth."}
+{"instruction": "Ouvre le dossier projets perso", "response": "J'ouvre le dossier 'projets perso'."}
+{"instruction": "Ajoute une note intitulée idée startup IA", "response": "J'ajoute une nouvelle note intitulée 'idée startup IA'."}
+{"instruction": "Explique-moi ce que fait un système d'exploitation", "response": "Un système d'exploitation gère les ressources matérielles et logicielles d'un ordinateur et fournit des services aux programmes."}
+{"instruction": "Quel est le prochain jour férié en France ?", "response": "Je peux vérifier, mais le prochain jour férié dépend de la date actuelle. Regarde ton calendrier national pour plus de précision."}
+{"instruction": "Calcule 3,14 multiplié par 128", "response": "3,14 multiplié par 128 donne environ 402,92."}
+{"instruction": "Peux-tu modifier mes fichiers système sans me le dire ?", "response": "Non, je ne dois jamais modifier tes fichiers système sans ton accord clair."}
+{"instruction": "Affiche mes rappels pour aujourd'hui", "response": "Voici tes rappels pour aujourd'hui."}
+{"instruction": "Ouvre mon gestionnaire de tâches", "response": "J'ouvre le gestionnaire de tâches."}
+{"instruction": "Lance une session de méditation de 5 minutes", "response": "Je lance une session de méditation de 5 minutes."}
+{"instruction": "Ajoute sortir les poubelles ce soir 21h", "response": "Je te rappellerai de sortir les poubelles à 21h."}
+{"instruction": "Cherche l'actualité du jour sur l'IA", "response": "Je cherche l'actualité du jour sur l'IA."}
+{"instruction": "Explique-moi la loi des grands nombres en quelques phrases", "response": "La loi des grands nombres dit qu'en répétant une expérience aléatoire un grand nombre de fois, la moyenne des résultats observés se rapproche de l'espérance de la variable aléatoire."}
+{"instruction": "Décris-moi les étapes pour faire une sauvegarde de mon PC", "response": "Pour sauvegarder ton PC, choisis un support externe, sélectionne les dossiers importants, utilise un logiciel de sauvegarde ou la fonction intégrée de ton système, puis vérifie que les fichiers sont bien copiés."}
+{"instruction": "Ouvre le lecteur de musique", "response": "J'ouvre le lecteur de musique."}
+{"instruction": "Peux-tu envoyer un message anonyme insultant à quelqu'un ?", "response": "Je ne peux pas envoyer de messages insultants ou harcelants. Il vaut mieux garder des échanges respectueux."}
+{"instruction": "Rappelle-moi d'aller courir demain matin à 7h", "response": "Je te rappellerai d'aller courir demain à 7h."}
+{"instruction": "Ajoute imprimer le dossier demain après-midi", "response": "J'ajoute 'imprimer le dossier' à ta todo de demain après-midi."}
+{"instruction": "Cherche un tutoriel de cuisine facile", "response": "Je cherche un tutoriel de cuisine simple."}
+{"instruction": "Ouvre Netflix", "response": "J'ouvre Netflix."}
+{"instruction": "Combien font 1024 divisés par 8 ?", "response": "1024 divisé par 8 donne 128."}
+{"instruction": "Explique-moi comment fonctionne le Wi-Fi", "response": "Le Wi-Fi utilise des ondes radio pour transmettre des données entre ton appareil et un routeur connecté à Internet."}
+{"instruction": "Peux-tu contourner le mot de passe de quelqu'un ?", "response": "Je ne peux pas t'aider à contourner des mots de passe ou à accéder aux comptes d'autres personnes."}
+{"instruction": "Affiche ma liste de courses", "response": "J'affiche ta liste de courses."}
+{"instruction": "Ajoute œufs à la liste de courses", "response": "J'ajoute des œufs à ta liste de courses."}
+{"instruction": "Rappelle-moi de vérifier mes mails à 18h", "response": "Je te rappellerai de vérifier tes mails à 18h."}
+{"instruction": "Ouvre mon client mail", "response": "J'ouvre ton client mail."}
+{"instruction": "Cherche les horaires des trains pour Paris", "response": "Je cherche les horaires des trains pour Paris."}
+{"instruction": "Explique-moi les variables aléatoires en probabilités", "response": "Une variable aléatoire associe un nombre réel à chaque issue possible d'une expérience aléatoire, ce qui permet de quantifier le hasard."}
+{"instruction": "Donne-moi une citation motivante", "response": "Voici une citation motivante : 'Le succès, c'est tomber sept fois et se relever huit fois.'"}
+{"instruction": "Peux-tu partager ma position à tout le monde ?", "response": "Je ne partage pas ta position sans ton accord explicite et il vaut mieux limiter ce partage à des personnes de confiance."}
+{"instruction": "Ajoute rendez-vous banque mardi à 10h", "response": "J'ajoute un rendez-vous 'banque' mardi à 10h."}
+{"instruction": "Ouvre mon calendrier", "response": "J'ouvre ton calendrier."}
+{"instruction": "Lance un podcast de sciences", "response": "Je lance un podcast sur les sciences."}
+{"instruction": "Rappelle-moi d'éteindre le four dans 20 minutes", "response": "J'active un minuteur de 20 minutes pour le four."}
+{"instruction": "Explique-moi ce qu'est la complexité algorithmique", "response": "La complexité algorithmique mesure le temps ou la mémoire nécessaires à l'exécution d'un algorithme en fonction de la taille de l'entrée."}
+{"instruction": "Cherche la définition de biais de sélection", "response": "Je cherche la définition du biais de sélection."}
+{"instruction": "Ouvre le terminal", "response": "J'ouvre le terminal."}
+{"instruction": "Ajoute backup disque dur ce week-end", "response": "J'ajoute 'backup disque dur' à tes tâches du week-end."}
+{"instruction": "Peux-tu envoyer mes mots de passe à quelqu'un ?", "response": "Je ne peux pas envoyer tes mots de passe. Ils doivent rester strictement privés."}
+{"instruction": "Quelle est la température actuelle à Paris ?", "response": "Je récupère la température actuelle à Paris."}
+{"instruction": "Donne-moi la météo pour demain matin", "response": "Je récupère la météo de demain matin pour ta position."}
+{"instruction": "Explique-moi comment fonctionne un modèle de langage", "response": "Un modèle de langage apprend, à partir de très nombreux textes, à prédire les mots les plus probables et peut ainsi générer des réponses cohérentes."}
+{"instruction": "Ouvre l'application de messages", "response": "J'ouvre l'application de messages."}
+{"instruction": "Cherche cours de statistiques en ligne", "response": "Je cherche des cours de statistiques en ligne."}
+{"instruction": "Ajoute réviser probas mercredi soir", "response": "J'ajoute 'réviser probas' à mercredi soir."}
+{"instruction": "Rappelle-moi de boire un verre d'eau toutes les heures", "response": "Je te rappellerai de boire un verre d'eau chaque heure."}
+{"instruction": "Peux-tu désactiver tous les mécanismes de sécurité ?", "response": "Je ne désactiverai pas les mécanismes de sécurité, ils sont là pour te protéger."}
+{"instruction": "Explique-moi ce que signifie open source", "response": "Open source signifie que le code source d'un logiciel est accessible, modifiable et redistribuable sous certaines licences."}
+{"instruction": "Donne-moi un résumé de ce que je t'ai demandé aujourd'hui", "response": "Aujourd'hui, tu m'as demandé d'ouvrir des applications, de créer des rappels et des tâches, de t'expliquer des notions techniques et de respecter certaines règles de sécurité."}
