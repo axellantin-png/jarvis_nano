@@ -99,6 +99,32 @@ TensorBoard est lancé automatiquement dans le http://localhost:6006/
 - Entraîner une version plus grande du modèle
 - Explorer LoRA et le fine-tuning sur LLaMA
 
+# Ressources utilisées pour démarrer le projet
+
+Pour comprendre et construire ce modèle, je me suis appuyé sur plusieurs ressources qui m'ont permis d'apprendre les principes fondamentaux des réseaux de neurones, des Transformers et de l'entraînement d’un LLM.
+
+Ressources principales :
+- 3Blue1Brown – Neural Networks Playlist
+Approche visuelle et intuitive du deep learning, essentielle pour comprendre les bases mathématiques derrière les réseaux neuronaux.
+- Documentation Hugging Face (Transformers, Tokenizers)
+Références techniques majeures pour comprendre le fonctionnement interne des modèles modernes, l’API d'entraînement, les datasets et les tokenizers.
+- PyTorch Documentation
+Indispensable pour maîtriser l'implémentation du modèle, du backward pass, des optimizers et des DataLoaders.
+- ChatGPT
+Utilisé comme assistant technique pour clarifier des concepts, explorer des idées, corriger des erreurs et expliquer des comportements inattendus du modèle.
+- Tutoriaux et articles spécialisés
+Divers guides sur les Transformers, l'attention multi-tête, les fonctions d’activation, les embeddings, ainsi que les bonnes pratiques d’entraînement.
+
+# Sources du corpus d'entraînement
+
+Pour créer le corpus d'entrainement j'ai utilisé :
+- Wikipedia (francophone) avec des articles variés (ex : mathématiciens célèbres, villes française, artistes, concepts techniques, ...)
+- Livres libres de droit : Principalement issus de bibliothèques numériques françaises (ex : Gallica, Wikisource). des exemples seraient illuminations de rimbaud, Cyrano de Bergerac, Vingt mille lieues sous les mers, ...
+Très utiles pour diversifier le style d’écriture et enrichir le vocabulaire du modèle.
+- Dialogues et datasets disponibles sur Hugging Face 
+
+Les textes sont nettoyés et normalisés avec le scripts de preprocessing (text_normalizer.py) qui sert à homogénéiser le corpus, normaliser les dialogues, supprimer le bruit et préparer les données pour la tokenisation.
+
 # contibution 
 
 C’est un projet personnel d'apprentissage, mais toute suggestion ou discussion est la bienvenue.
