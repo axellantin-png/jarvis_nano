@@ -25,44 +25,47 @@ Ce projet est inspiré de J.A.R.V.I.S des filmes iron man et est un terrain d'ex
 
 # Structure du projet 
 
+```
 jarvis_nano/
 ├── data
-│   ├── corpus_fr_fin.txt
-│   ├── corpus_fr.txt
-│   ├── file.py
-│   ├── jarvis_instructions_clean.jsonl
-│   └── jarvis_instructions.jsonl
+│   ├── corpus_fr_fin.txt
+│   ├── corpus_fr.txt
+│   ├── file.py
+│   ├── jarvis_instructions_clean.jsonl
+│   └── jarvis_instructions.jsonl
 ├── docs
-│   └── architecture.md
+│   └── architecture.md
 ├── models
-│   ├── jarvis_from_scratch
-│   └── jarvis_instruct
+│   ├── jarvis_from_scratch
+│   └── jarvis_instruct
 ├── README.md
 ├── src
-│   ├── data
-│   │   ├── jarvis_instruction_checker.py
-│   │   ├── text_normalizer_xml.py
-│   │   └── text_normalizer.py
-│   ├── docs
-│   │   └── architecture.md
-│   ├── model
-│   │   └── model.py
-│   ├── testing
-│   │   ├── test_from_scratch.py
-│   │   ├── test_jarvis_instruct.py
-│   │   ├── test_tokenizer.py
-│   │   └── tester_modèle.py
-│   └── training
-│       ├── dataset.py
-│       ├── instruction_dataset.py
-│       ├── tensorboard_llm_logger.py
-│       ├── train_from_scratch.py
-│       ├── train_jarvis_instruct.py
-│       └── train_tokenizer.py
+│   ├── data
+│   │   ├── jarvis_instruction_checker.py
+│   │   ├── text_normalizer_xml.py
+│   │   └── text_normalizer.py
+│   ├── docs
+│   │   └── architecture.md
+│   ├── model
+│   │   └── model.py
+│   ├── testing
+│   │   ├── test_from_scratch.py
+│   │   ├── test_jarvis_instruct.py
+│   │   ├── test_tokenizer.py
+│   │   └── tester_modèle.py
+│   └── training
+│       ├── dataset.py
+│       ├── instruction_dataset.py
+│       ├── tensorboard_llm_logger.py
+│       ├── train_from_scratch.py
+│       ├── train_jarvis_instruct.py
+│       └── train_tokenizer.py
 └── tokenizer_hf
     ├── special_tokens_map.json
     ├── tokenizer_config.json
     └── tokenizer.json
+```
+
 
 
 # Entrainer le modèle 
