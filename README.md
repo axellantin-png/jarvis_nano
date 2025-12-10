@@ -71,7 +71,7 @@ jarvis_nano/
 # Entrainer le modèle 
 
 Lancement :
-python src/train_from_scratch.py
+python src/training/train_from_scratch.py
 
 Le script gère :
 •	les checkpoints
