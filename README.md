@@ -1,5 +1,3 @@
-*english version below*
-
 # Description 
 
 Jarvis_nano est un modèle de langage Transformer que je développe, dans le cadre d’un projet personnel dont l’objectif est de comprendre le fonctionnement d’un LLM.
