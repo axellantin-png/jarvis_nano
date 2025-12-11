@@ -64,6 +64,12 @@ jarvis_nano/
     ├── tokenizer_config.json
     └── tokenizer.json
 ```
+# utiliser un modèle 
+
+lancement :
+python src/testing/test_from_scratch.py models/jarvis_from_scratch/model_epoch2.pt "Le projet de la réunion est"
+
+exemple pour les premiers modèles (3-epochs d'entrainement) : 
 
 
 
@@ -99,6 +105,7 @@ TensorBoard est lancé automatiquement dans le http://localhost:6006/
 - Support multi-GPU (long terme)
 - Entraîner une version plus grande du modèle
 - Explorer LoRA et le fine-tuning sur LLaMA
+- créer un mini environnement pour faire tourner les modèles 
 
 # Ressources utilisées pour démarrer le projet
 

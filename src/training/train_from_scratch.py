@@ -1,17 +1,22 @@
-import os
+import os, sys
+
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+sys.path.insert(0, ROOT)
+
 import torch
 from torch.utils.data import DataLoader
 from transformers import PreTrainedTokenizerFast
 from tqdm import tqdm
 
-from model import MiniGPT
+
+from src.models.model import MiniGPT
 from dataset import TextDataset
 from tensorboard_llm_logger import LLMTensorboardLogger
 
 import time
 import re
 
-path = "models/jarvis_from_scratch/model_epoch2.pt"
+path = "models/jarvis_from_scratch/model_epoch4.pt"
 
 
 
@@ -20,11 +25,11 @@ path = "models/jarvis_from_scratch/model_epoch2.pt"
 # informations générales 
 DATA_FILE = "data/corpus_fr_fin.txt"
 TOKENIZER_DIR = "tokenizer_hf"
-OUTPUT_DIR = "models/jarvis_from_scratch"
+OUTPUT_DIR = "models/jarvis_from_scratch_256_6_4"
 
 # si on veut reprendre l'entrainement 
-REPRENDRE = True
-MODEL_A_REPRENDRE = "models/jarvis_from_scratch/model_epoch2.pt"
+REPRENDRE = False
+MODEL_A_REPRENDRE = "models/jarvis_from_scratch_384_6_6/model_epoch3.pt"
 match = re.search(r"epoch(\d+)", path)
 if match and REPRENDRE:
     epoch_number_to_add = int(match.group(1))
@@ -79,9 +84,9 @@ def main():
     # 5) Créer le modèle
     model = MiniGPT(
         vocab_size=vocab_size,
-        d_model=384,
+        d_model=256,
         n_layers=6,
-        n_heads=6,
+        n_heads=4,
         d_ff=1024,
         max_seq_len=block_size,
         dropout=0.1,
