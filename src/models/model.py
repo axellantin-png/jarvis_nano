@@ -1,9 +1,14 @@
+##############################################################################################################################################################################################
+# les modules, classes et fonctions importées 
+##############################################################################################################################################################################################
+
 import math
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-# c'est la classe de l'attention (https://www.youtube.com/watch?v=eMlx5fFNoYc/attention is all you need) ca permet
+
+# c'est la classe de l'attention (https://www.youtube.com/watch?v=eMlx5fFNoYc/attention) ca permet
 # aux mots de demander aux mots precedent si ils lui ajoutent du sens (grace a l'opération dot entre les matrices 
 # key "k" et les matrices query "q")
 class SelfAttention(nn.Module):
@@ -169,3 +174,6 @@ class MiniGPT(nn.Module):
             input_ids = torch.cat([input_ids, next_token], dim=1)
 
         return input_ids
+    
+    
+

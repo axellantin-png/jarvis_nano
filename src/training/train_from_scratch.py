@@ -25,14 +25,22 @@ path = "models/jarvis_from_scratch/model_epoch4.pt"
 # informations générales 
 DATA_FILE = "data/corpus_fr_fin.txt"
 TOKENIZER_DIR = "tokenizer_hf"
-OUTPUT_DIR = "models/jarvis_from_scratch_256_6_4"
+OUTPUT_DIR = "models/jarvis_from_scratch_384_6_6"
+
+
+def extract_epoch(model_path: str) -> int | None:
+    match = re.search(r"epoch(\d+)", model_path)
+    if match:
+        return int(match.group(1))
+    return None
+
 
 # si on veut reprendre l'entrainement 
-REPRENDRE = False
-MODEL_A_REPRENDRE = "models/jarvis_from_scratch_384_6_6/model_epoch3.pt"
-match = re.search(r"epoch(\d+)", path)
-if match and REPRENDRE:
-    epoch_number_to_add = int(match.group(1))
+REPRENDRE = True
+MODEL_A_REPRENDRE = "models/jarvis_from_scratch_384_6_6/model_epoch6.pt"
+if REPRENDRE:
+    epoch_number_to_add = epoch = extract_epoch(MODEL_A_REPRENDRE)
+    print(epoch_number_to_add)
 else : 
     epoch_number_to_add = 0
 
@@ -68,13 +76,24 @@ def main():
     print("Longueur texte (caractères):", len(text))
 
     # 3) Tokeniser tout le corpus
-    enc = tokenizer(
-        text,
-        return_tensors=None,
-        add_special_tokens=True
-    )
-    input_ids = enc["input_ids"]
+    print("Tokenisation du corpus...")
+
+    # Découpe le texte en lignes non vides
+    lines = [l for l in text.splitlines() if l.strip()]
+
+    all_ids = []
+
+    for line in tqdm(lines, desc="Tokenisation", total=len(lines)):
+        enc = tokenizer(
+            line,
+            return_tensors=None,
+            add_special_tokens=True
+        )
+        all_ids.extend(enc["input_ids"])
+
+    input_ids = all_ids
     print("Nombre total de tokens:", len(input_ids))
+
 
     # 4) Créer dataset
     block_size = 64
@@ -84,9 +103,9 @@ def main():
     # 5) Créer le modèle
     model = MiniGPT(
         vocab_size=vocab_size,
-        d_model=256,
+        d_model=384,
         n_layers=6,
-        n_heads=4,
+        n_heads=6,
         d_ff=1024,
         max_seq_len=block_size,
         dropout=0.1,
@@ -130,7 +149,7 @@ def main():
             optimizer.zero_grad()
             logits, loss = model(x, labels=y)
             loss.backward()
-            torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+            torch.nn.utils.clip_grad_norm_(model.parameters(), 5.0)
             optimizer.step()
             scheduler.step()
 
@@ -158,6 +177,12 @@ def main():
             # Histogram a changer si trop lourd 
             if global_step % 50000 == 0:
                 logger.log_histograms(model, global_step)
+
+            
+            # si les epochs sont trop longues 
+            if global_step % 100000 == 0 : 
+                torch.save(model.state_dict(), os.path.join(OUTPUT_DIR, f"model_epoch{epoch+epoch_number_to_add}.pt"))
+
 
 
 

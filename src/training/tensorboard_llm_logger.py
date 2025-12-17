@@ -6,6 +6,8 @@ import numpy as np
 import subprocess
 import os
 
+from src.models.model_upgrades import postprocess_french_text
+
 class LLMTensorboardLogger:
     def __init__(self, log_dir="runs/llm_logs", port=6006, launch_tb=True):
         self.writer = SummaryWriter(log_dir=log_dir)
@@ -118,7 +120,7 @@ class LLMTensorboardLogger:
         try:
             model.eval()
 
-            prompt = "Le sujet de la réunion est"
+            prompt = "Le planning pour aujourd'hui est :"
             enc = tokenizer(prompt, return_tensors="pt")
 
             # récupérer uniquement input_ids
@@ -133,7 +135,8 @@ class LLMTensorboardLogger:
                     top_k=50           # tu peux désactiver en mettant None
                 )
 
-            text = tokenizer.decode(out[0], skip_special_tokens=True)
+            text = tokenizer.decode(out[0], skip_special_tokens=True, clean_up_tokenization_spaces=True)
+            text = postprocess_french_text(text)
             self.writer.add_text("samples/generated", text, step)
 
         except Exception as e:
